@@ -11,101 +11,95 @@ function FooterOne() {
                             <div className="footer-main-content-wrapper pb--70 pb_sm--30">
                                 {/* single footer area wrapper */}
                                 <div className="single-footer-wized">
-                                    <h3 className="footer-title">About Company</h3>
+                                    <h3 className="footer-title">Sobre a Empresa</h3>
                                     <div className="call-area">
                                         <div className="icon">
                                             <i className="fa-solid fa-phone-rotary" />
                                         </div>
                                         <div className="info">
-                                            <span>Have Question? Call Us 24/7</span>
+                                            <span>Tem alguma dúvida? Ligue 24/7</span>
                                             <a href="#" className="number">
-                                                +258 3692 2569
+                                                +11 9999 6666
                                             </a>
                                         </div>
                                     </div>
                                     <div className="opening-hour">
                                         <div className="single">
                                             <p>
-                                                Monday - Friday: <span>8:00am - 6:00pm</span>
+                                                Segunda - Sexta: <span>8:00am - 6:00pm</span>
                                             </p>
                                         </div>
                                         <div className="single">
                                             <p>
-                                                Saturday: <span>8:00am - 6:00pm</span>
+                                                Sábado: <span>8:00am - 6:00pm</span>
                                             </p>
                                         </div>
                                         <div className="single">
                                             <p>
-                                                Sunday: <span>Service Close</span>
+                                                Domingo: <span>Fechado</span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                {/* single footer area wrapper */}
-                                {/* single footer area wrapper */}
+
                                 <div className="single-footer-wized">
-                                    <h3 className="footer-title">Our Stores</h3>
+                                    <h3 className="footer-title">Nossas Lojas</h3>
                                     <div className="footer-nav">
                                         <ul>
                                             <li>
-                                                <a href="#">Delivery Information</a>
+                                                <a href="#">Informações de Entrega</a>
                                             </li>
                                             <li>
-                                                <a href="#">Privacy Policy</a>
+                                                <a href="#">Política de Privacidade</a>
                                             </li>
                                             <li>
-                                                <a href="#">Terms &amp; Conditions</a>
+                                                <a href="#">Termos &amp; Condições</a>
                                             </li>
                                             <li>
-                                                <a href="#">Support Center</a>
+                                                <a href="#">Centro de Suporte</a>
                                             </li>
                                             <li>
-                                                <a href="#">Careers</a>
+                                                <a href="#">Carreiras</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                {/* single footer area wrapper */}
-                                {/* single footer area wrapper */}
+
                                 <div className="single-footer-wized">
-                                    <h3 className="footer-title">Shop Categories</h3>
+                                    <h3 className="footer-title">Shop Categorias</h3>
                                     <div className="footer-nav">
                                         <ul>
                                             <li>
-                                                <a href="#">Contact Us</a>
+                                                <a href="#">Nos contate</a>
                                             </li>
                                             <li>
-                                                <a href="#">Information</a>
+                                                <a href="#">Informação</a>
                                             </li>
                                             <li>
-                                                <a href="#">About Us</a>
+                                                <a href="#">Sobre nós</a>
                                             </li>
                                             <li>
-                                                <a href="#">Careers</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Nest Stories</a>
+                                                <a href="#">Carreiras</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                {/* single footer area wrapper */}
-                                {/* single footer area wrapper */}
+
                                 <div className="single-footer-wized">
-                                    <h3 className="footer-title">Useful Links</h3>
+                                    <h3 className="footer-title">Links Úteis</h3>
                                     <div className="footer-nav">
                                         <ul>
                                             <li>
-                                                <a href="#">Cancellation &amp; Returns</a>
+                                                <a href="#">Cancelamento &amp; Devoluções</a>
                                             </li>
                                             <li>
-                                                <a href="#">Report Infringement</a>
+                                                <a href="#">Reportar Problemas</a>
                                             </li>
                                             <li>
-                                                <a href="#">Payments</a>
+                                                <a href="#">Pagamento</a>
                                             </li>
                                             <li>
-                                                <a href="#">Shipping</a>
+                                                <a href="#">Envio</a>
                                             </li>
                                             <li>
                                                 <a href="#">FAQ</a>
@@ -113,13 +107,12 @@ function FooterOne() {
                                         </ul>
                                     </div>
                                 </div>
-                                {/* single footer area wrapper */}
-                                {/* single footer area wrapper */}
+
                                 <div className="single-footer-wized">
-                                    <h3 className="footer-title">Our Newsletter</h3>
+                                    <h3 className="footer-title">Nossa Newsletter</h3>
                                     <p className="disc-news-letter">
-                                        Subscribe to the mailing list to receive updates one <br /> the
-                                        new arrivals and other discounts
+                                        Inscreva-se na lista de e-mails para receber atualizações sobre <br /> os
+                                        novos produtos e outras ofertas
                                     </p>
                                     <form className="footersubscribe-form" action="#">
                                         <input
@@ -130,14 +123,14 @@ function FooterOne() {
                                         <button className="rts-btn btn-primary">Subscribe</button>
                                     </form>
                                     <p className="dsic">
-                                        I would like to receive news and special offer
+                                        Eu gostaria de receber comunicações de marketing da ES Empilhadeiras.
                                     </p>
                                 </div>
-                                {/* single footer area wrapper */}
+
                             </div>
                             <div className="social-and-payment-area-wrapper">
                                 <div className="social-one-wrapper">
-                                    <span>Follow Us:</span>
+                                    <span>Nos Siga:</span>
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -167,7 +160,7 @@ function FooterOne() {
                                     </ul>
                                 </div>
                                 <div className="payment-access">
-                                    <span>Payment Accepts:</span>
+                                    <span>Formas de Pagamento:</span>
                                     <img src="assets/images/payment/01.png" alt="" />
                                 </div>
                             </div>
@@ -175,7 +168,7 @@ function FooterOne() {
                     </div>
                 </div>
             </div>
-            {/* rts footer one area end */}
+
             {/* rts copyright-area start */}
             <div className="rts-copyright-area">
                 <div className="container">
@@ -183,13 +176,8 @@ function FooterOne() {
                         <div className="col-lg-12">
                             <div className="copyright-between-1">
                                 <p className="disc">
-                                    Copyright 2025 <a href="#">©Ekomart</a>. All rights reserved.
+                                    Copyright 2026 <a href="#">©ES Empilhadeiras</a>. Todos os direitos reservados. Desenvolvido por <a href="#">ES Empilhadeiras</a>
                                 </p>
-                                <a href="#" className="playstore-app-area">
-                                    <span>Download App</span>
-                                    <img src="assets/images/payment/02.png" alt="" />
-                                    <img src="assets/images/payment/03.png" alt="" />
-                                </a>
                             </div>
                         </div>
                     </div>

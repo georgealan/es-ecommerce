@@ -57,17 +57,6 @@ function ComponentName() {
                                 <div className="nav-area">
                                     <Nav />
                                 </div>
-                                {/* button-area */}
-                                <div className="right-btn-area">
-                                    <a href="#" className="btn-narrow">
-                                        Trending Products
-                                    </a>
-                                    <button className="rts-btn btn-primary">
-                                        Get 30% Discount Now
-                                        <span>Sale</span>
-                                    </button>
-                                </div>
-                                {/* button-area end */}
                             </div>
                         </div>
                         <div className="col-lg-12">
@@ -86,7 +75,7 @@ function ComponentName() {
                                             src="/assets/images/icons/bar-1.svg"
                                             alt="icons"
                                         />
-                                        <span>Categories</span>
+                                        <span>Categorias</span>
                                         <ul className="category-sub-menu">
                                             <li>
                                                 <a href="#" className="menu-item">

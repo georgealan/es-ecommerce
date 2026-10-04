@@ -21,12 +21,12 @@ const CartDropdown: React.FC = () => {
   return (
     <div className="btn-border-only cart category-hover-header">
       <i className="fa-sharp fa-regular fa-cart-shopping" />
-      <span className="text">Cart</span>
+      <span className="text">Carrinho</span>
       <span className="number">{activeItems.length}</span>
 
       <div className="category-sub-menu card-number-show">
         <h5 className="shopping-cart-number">
-          Shopping Cart ({activeItems.length.toString().padStart(2, '0')})
+          Carrinho de Compras ({activeItems.length.toString().padStart(2, '0')})
         </h5>
 
         {activeItems.map((item) => (
@@ -70,18 +70,18 @@ const CartDropdown: React.FC = () => {
             </div>
             {total < freeShippingThreshold && (
               <p>
-                Spend More <span>${remaining.toFixed(2)}</span> to reach{' '}
-                <span>Free Shipping</span>
+                Gaste Mais <span>${remaining.toFixed(2)}</span> para alcançar{' '}
+                <span>Frete Grátis</span>
               </p>
             )}
           </div>
 
           <div className="button-wrapper d-flex align-items-center justify-content-between">
             <Link href="/cart" className="rts-btn btn-primary">
-              View Cart
+              Ver Carrinho
             </Link>
             <Link href="/checkout" className="rts-btn btn-primary border-only">
-              CheckOut
+              Finalizar Compra
             </Link>
           </div>
         </div>

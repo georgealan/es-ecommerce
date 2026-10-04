@@ -22,7 +22,7 @@ function HeaderOne() {
   >([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
-  
+
 
   // 🔥 Auto Slug Function
   const makeSlug = (text: string) =>
@@ -183,55 +183,11 @@ function HeaderOne() {
                                 <div className="bwtween-area-header-top">
                                     <div className="discount-area">
                                         <p className="disc">
-                                            FREE delivery &amp; 40% Discount for next 3 orders! Place your 1st order in.
+                                            ENTREGA GRÁTIS &amp; 40% DE DESCONTO PARA AS PRÓXIMAS 3 PEDIDOS! FAÇA SEU 1º PEDIDO AGORA.
                                         </p>
-                                        <div className="countdown">
-                                            <div className="countDown">07/07/2026 10:20:00</div>
-                                        </div>
                                     </div>
                                     <div className="contact-number-area">
-                                        <p>Need help? Call Us: <a href="tel:+4733378901">+258 3268 21485</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* mid bar */}
-                <div className="header-mid-one-wrapper">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="header-mid-wrapper-between">
-                                    <div className="nav-sm-left">
-                                        <ul className="nav-h_top">
-                                            <li><Link href="/about">About Us</Link></li>
-                                            <li><Link href="/account">My Account</Link></li>
-                                            <li><Link href="/wishlist">Wishlist</Link></li>
-                                        </ul>
-                                        <p className="para">We deliver to your everyday from 7:00 to 22:00</p>
-                                    </div>
-                                    <div className="nav-sm-left">
-                                        <ul className="nav-h_top language">
-                                            <li className="category-hover-header language-hover">
-                                                <a href="#">English</a>
-                                                <ul className="category-sub-menu">
-                                                    <li><a href="#"><span>Italian</span></a></li>
-                                                    <li><a href="#"><span>Russian</span></a></li>
-                                                    <li><a href="#"><span>Chinian</span></a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="category-hover-header language-hover">
-                                                <a href="#">USD</a>
-                                                <ul className="category-sub-menu">
-                                                    <li><a href="#"><span>Rubol</span></a></li>
-                                                    <li><a href="#"><span>Rupi</span></a></li>
-                                                    <li><a href="#"><span>Euro</span></a></li>
-                                                </ul>
-                                            </li>
-                                            <li><Link href="/trackorder">Track Order</Link></li>
-                                        </ul>
+                                        <p>Precisa de ajuda? Contate-nos: <a href="tel:+4733378901">+11 6699882200</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +207,7 @@ function HeaderOne() {
                                     <div className="category-search-wrapper">
                                         <div className="category-btn category-hover-header">
                                             <img className="parent" src="/assets/images/icons/bar-1.svg" alt="icons" />
-                                            <span>Categories</span>
+                                            <span>Categorias</span>
                                             <CategoryMenu />
                                         </div>
                                         {/* Search Input Autocomplete */}
@@ -259,7 +215,7 @@ function HeaderOne() {
                                         <input
                                             ref={inputRef}
                                         type="text"
-                                        placeholder="Search for products..."
+                                        placeholder="Busca por produtos..."
                                         value={searchTerm}
                                         onChange={(e) => setSearchTerm(e.target.value)}
                                         onFocus={() => searchTerm.length > 0 && setShowSuggestions(true)}
@@ -328,11 +284,7 @@ function HeaderOne() {
                                     <div className="accont-wishlist-cart-area-header">
                                         <Link href="/account" className="btn-border-only account">
                                             <i className="fa-light fa-user" />
-                                            <span>Account</span>
-                                        </Link>
-                                        <Link href="/shop-compare" className="btn-border-only account compare-number">
-                                            <i className="fa-regular fa-code-compare" />
-                                            <span className="number">{compareItems.length}</span>
+                                            <span>Conta</span>
                                         </Link>
                                         <WishList />
                                         <Cart />

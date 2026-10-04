@@ -48,7 +48,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --color-primary: #629D23;
+  --color-primary: #121C59;
   --color-secondary: #1F1F25;
   --color-body: #6E777D;
   --color-heading-1: #2C3C28;
@@ -459,7 +459,7 @@ var {
 }
 
 /*---------------------------
-	List Style 
+	List Style
 ---------------------------*/
 ul,
 ol {
@@ -677,7 +677,7 @@ ol ul {
 }
 
 /*=========================
-    Section Separation 
+    Section Separation
 ==========================*/
 .rts-section-gap {
   padding: 60px 0;
@@ -9959,7 +9959,7 @@ iframe {
 }
 
 /*===============================
-    Background Color 
+    Background Color
 =================================*/
 .bg-color-primary {
   background: var(--color-primary);
@@ -9990,7 +9990,7 @@ iframe {
 }
 
 /*===========================
-Background Image 
+Background Image
 =============================*/
 .bg_image {
   background-repeat: no-repeat;
@@ -10675,7 +10675,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*=============================
-	Overlay styles 
+	Overlay styles
 ==============================*/
 [data-overlay],
 [data-black-overlay],
@@ -14575,9 +14575,9 @@ Copyright (c) 2015 Daniel Eden
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xclip 
+xclip
 
 -------------------------------- */
 .cd-headline.clip span {
@@ -18194,7 +18194,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .rts-btn.btn-primary {
-  background: #629D23;
+  background: var(--color-primary);
   border-radius: 6px;
   display: block;
   max-width: max-content;
@@ -21031,8 +21031,8 @@ li.with-megamenu:hover .rts-megamenu {
   /* most of the rest of this is opinion */
   font-family: Helvetica, sans-serif;
   text-align: center;
-  /* 
-  Let the content set the size of the titles 
+  /*
+  Let the content set the size of the titles
   but this will also keep them from being obnoxious
   */
   min-width: 3em;

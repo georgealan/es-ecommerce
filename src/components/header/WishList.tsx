@@ -22,12 +22,12 @@ const WishList: React.FC = () => {
     return (
         <div className="btn-border-only cart category-hover-header">
             <i className="fa-regular fa-heart" />
-            <span className="text">Wishlist</span>
+            <span className="text">Lista de Desejos</span>
             <span className="number">{wishlistItems.length}</span>
 
             <div className="category-sub-menu card-number-show">
                 <h5 className="shopping-cart-number">
-                    Wishlist ({wishlistItems.length.toString().padStart(2, '0')})
+                    Lista de Desejos ({wishlistItems.length.toString().padStart(2, '0')})
                 </h5>
 
                 {wishlistItems.map((item) => (
@@ -71,15 +71,15 @@ const WishList: React.FC = () => {
                         </div>
                         {total < freeShippingThreshold && (
                             <p>
-                                Spend More <span>${remaining.toFixed(2)}</span> to reach{' '}
-                                <span>Free Shipping</span>
+                                Gaste Mais <span>${remaining.toFixed(2)}</span> para alcançar{' '}
+                                <span>Frete Grátis</span>
                             </p>
                         )}
                     </div>
 
                     <div className="button-wrapper d-flex align-items-center justify-content-between">
                         <Link href="/wishlist" className="rts-btn btn-primary">
-                            View Wishlist
+                            Ver Lista de Desejos
                         </Link>
                     </div>
                 </div>

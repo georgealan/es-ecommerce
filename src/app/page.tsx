@@ -6,7 +6,6 @@ import FeatureProduct from "@/components/product/FeatureProduct";
 import WeeklyBestSelling from "@/components/product/WeeklyBestSelling";
 import FeatureDiscount from "@/components/product/FeatureDiscount";
 import TrandingProduct from "@/components/product/TrandingProduct";
-import BlogOne from "@/components/blog/BlogOne";
 import FooterOne from "@/components/footer/FooterOne";
 import { CartProvider } from "@/components/header/CartContext";
 import { WishlistProvider } from "@/components/header/WishlistContext";
@@ -18,7 +17,7 @@ export default function Home() {
     <WishlistProvider>
       <CartProvider>
         <div className="demo-one">
-          
+
         <ToastContainer position="top-right" autoClose={3000} />
           <HeaderOne />
           <BannerOne />
@@ -28,7 +27,6 @@ export default function Home() {
           <WeeklyBestSelling />
           <FeatureDiscount />
           <TrandingProduct />
-          <BlogOne />
           <FooterOne />
         </div>
       </CartProvider>
