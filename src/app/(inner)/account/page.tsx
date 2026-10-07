@@ -2,7 +2,7 @@
 import HeaderOne from "@/components/header/HeaderOne";
 import ShortService from "@/components/service/ShortService";
 import Accordion from "./Accordion";
-import FooterOne from "@/components/footer/FooterOne";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
     return (
@@ -10,17 +10,17 @@ export default function Home() {
             <HeaderOne />
 
             <>
-                
+
 
 
             <Accordion/>
 
-                
-                
+
+
             </>
 
             <ShortService />
-            <FooterOne />
+            <Footer />
         </div>
     );
 }

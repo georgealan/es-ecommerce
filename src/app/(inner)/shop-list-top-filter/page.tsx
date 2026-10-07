@@ -6,7 +6,7 @@ import ShopMainList from "./ShopMainList";
 import Product from '@/data/Product.json';
 
 
-import FooterOne from "@/components/footer/FooterOne";
+import FooterOne from "@/components/footer/Footer";
 import Link from "next/link";
 
 

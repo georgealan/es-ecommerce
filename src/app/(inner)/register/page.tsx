@@ -2,7 +2,7 @@
 import HeaderOne from "@/components/header/HeaderOne";
 import ShortService from "@/components/service/ShortService";
 
-import FooterOne from "@/components/footer/FooterOne";
+import FooterOne from "@/components/footer/Footer";
 
 export default function Home() {
   return (

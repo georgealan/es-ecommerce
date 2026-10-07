@@ -6,7 +6,7 @@ import ShopMainList from "./ShopMainList";
 import Product from '@/data/Product.json';
 
 
-import FooterOne from "@/components/footer/FooterOne";
+import FooterOne from "@/components/footer/Footer";
 import Link from "next/link";
 
 
@@ -78,7 +78,7 @@ export default function Home() {
         <div className="shop-grid-sidebar-area rts-section-gap">
           <div className="container">
             <div className="row g-0">
-              
+
               <div className="col-xl-12 col-lg-12">
                 <div className="filter-select-area">
                   <div className="top-filter">

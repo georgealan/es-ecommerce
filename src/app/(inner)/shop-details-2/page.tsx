@@ -3,7 +3,7 @@ import { useState } from 'react';
 import HeaderOne from "@/components/header/HeaderOne";
 import ShortService from "@/components/service/ShortService";
 import RelatedProduct from "@/components/product/RelatedProduct";
-import FooterOne from "@/components/footer/FooterOne";
+import FooterOne from "@/components/footer/Footer";
 import Product from "@/data/Product.json";
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
@@ -95,7 +95,7 @@ export default function Home() {
                       <div className="details-product-area">
                         <div className="product-thumb-area">
                           <div className="cursor" />
-                          
+
                           <div className="product-thumb-filter-group">
                             {thumbnails.map((thumb, index) => (
                               <div

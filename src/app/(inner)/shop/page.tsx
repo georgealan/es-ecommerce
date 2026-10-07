@@ -4,7 +4,7 @@ import { useState, Suspense } from 'react';
 import ShopMain from "./ShopMain";
 import ShopMainList from "./ShopMainList";
 import Product from '@/data/Product.json';
-import FooterOne from "@/components/footer/FooterOne";
+import FooterOne from "@/components/footer/Footer";
 import { useSearchParams } from 'next/navigation';
 import Link from "next/link";
 
@@ -21,7 +21,7 @@ interface PostType {
 function ShopContent() {
   const searchParams = useSearchParams();
   const searchQuery = searchParams.get('search')?.toLowerCase() || '';
-  
+
   const [activeTab, setActiveTab] = useState<string>('tab1');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
@@ -65,7 +65,7 @@ function ShopContent() {
     const val = parseFloat(e.target.value);
     if (!isNaN(val)) setMinPrice(val);
   };
-  
+
   const handleMaxPriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = parseFloat(e.target.value);
     if (!isNaN(val)) setMaxPrice(val);

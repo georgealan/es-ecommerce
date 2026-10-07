@@ -35,16 +35,12 @@ function ComponentName() {
     };
 
 
-
     const handleSearchOpen = () => {
         const sidebar = document.querySelector('.search-input-area');
         if (sidebar) {
             sidebar.classList.toggle('show');
         }
     };
-
-
-
 
 
     return (

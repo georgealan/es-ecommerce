@@ -4,7 +4,7 @@ import { useState, Suspense } from 'react';
 import ShopMain from "./ShopMain";
 import ShopMainList from "./ShopMainList";
 import Product from '@/data/Product.json';
-import FooterOne from "@/components/footer/FooterOne";
+import FooterOne from "@/components/footer/Footer";
 import { useSearchParams } from 'next/navigation';
 import Link from "next/link";
 

@@ -14,79 +14,56 @@ const menuItems: MenuItem[] = [
   {
     title: "Dashboard",
     icon: "/assets/images-dashboard/icons/01.svg",
-    children: [
-      { title: "Main Demo", href: "/dashboard" },
-      { title: "Coming Soon", href: "#" },
-    ],
+    href: "/dashboard",
   },
   {
-    title: "Order",
+    title: "Pedidos",
     icon: "/assets/images-dashboard/icons/09.svg",
     children: [
-      { title: "Order", href: "/dashboard/order" },
-      { title: "Order Details", href: "/dashboard/order-details" },
+      { title: "Pedidos", href: "/dashboard/order" },
+      { title: "Detalhes do Pedido", href: "/dashboard/order-details" },
     ],
   },
   {
-    title: "Product",
+    title: "Produto",
     icon: "/assets/images-dashboard/icons/02.svg",
     children: [
-      { title: "Product List", href: "/dashboard/product-list" },
-      { title: "Add Product", href: "/dashboard/add-product" },
-    ],
-    // children: [{ title: "Add Product", href: "/dashboard/add-product" }],
-  },
-  // {
-  //   title: "Add Product",
-  //   icon: "/assets/images-dashboard/icons/03.svg",
-  // },
-  {
-    title: "Vendor",
-    icon: "/assets/images-dashboard/icons/04.svg",
-    children: [
-      { title: "Vendor Grid", href: "/dashboard/vendor-grid" },
-      { title: "Vendor List", href: "/dashboard/vendor-list" },
-      { title: "Vendor Details", href: "/dashboard/vendor-details" },
-      { title: "Create Vendors", href: "/dashboard/create-vendors" },
+      { title: "Lista de Produtos", href: "/dashboard/product-list" },
+      { title: "Adicionar Produto", href: "/dashboard/add-product" },
     ],
   },
   {
-    title: "Transactions",
+    title: "Transações",
     icon: "/assets/images-dashboard/icons/06.svg",
     href: "/dashboard/transaction",
   },
   {
-    title: "Reviews",
+    title: "Avaliações",
     icon: "/assets/images-dashboard/icons/07.svg",
     href: "/dashboard/review",
   },
   {
-    title: "Brand",
-    icon: "/assets/images-dashboard/icons/16.svg",
-    href: "/dashboard/brand",
-  },
-  {
-    title: "Payment",
+    title: "Pagamentos",
     icon: "/assets/images-dashboard/icons/17.svg",
     href: "/dashboard/payment",
   },
   {
-    title: "User Profile",
+    title: "Perfil do Usuário",
     icon: "/assets/images-dashboard/icons/05.svg",
     children: [
-      { title: "Profile Setting", href: "/dashboard/profile-setting" },
+      { title: "Configurações do Perfil", href: "/dashboard/profile-setting" },
       { title: "Log In", href: "/dashboard/log-in" },
-      { title: "Registration", href: "/dashboard/registration" },
+      { title: "Registro", href: "/dashboard/registration" },
     ],
   },
 ];
 
 const SidebarMenu = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0); // 0 means Dashboard open by default
+  const [openIndex, setOpenIndex] = useState<number | null>(0); // 0 significa Dashboard aberta por padrão.
   const pathname = usePathname();
 
   useEffect(() => {
-    // Find the index of the menu item that has a child matching the current path
+    // Encontra o índice do item de menu que possui um filho correspondente ao caminho atual
     const activeIndex = menuItems.findIndex((item) => {
       return item.children?.some((child) => {
         return pathname === child.href || (child.title === "Main Demo" && pathname === "/index");
